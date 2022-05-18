@@ -9,5 +9,9 @@ const alumns = [
 let isApproved = false;
 
 for (i =0; i < alumns.length; i++){
-    if (alumns[i].)
-}
+	if (alumns[i].T1 && alumns[i].T2 || alumns[i].T2 && alumns[i].T3 || alumns[i].T1 && alumns[i].T3){
+		isApproved = true
+	} else {
+		isApproved = false
+	} console.log(alumns[i].name, isApproved)
+} 
